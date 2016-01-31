@@ -1,0 +1,13 @@
+Problem:
+Esd initialization failed, no sound will be play!
+
+
+Solution:
+Preferences->Misc->Sound->Always use sound play command.
+
+Or:
+
+# sudo vim /etc/esound/esd.conf
+auto_spawn=1 
+
+(Need reboot)
